@@ -20,9 +20,8 @@ const Pagination = (props) => {
           >
             {/* eslint-disable-next-line */}
             <a
-              className="page-link"
+              className="page-link clickable"
               onClick={() => onPageChange(page)}
-              style={{ cursor: "pointer" }}
             >
               {page}
             </a>
